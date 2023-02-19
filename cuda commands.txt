@@ -1,0 +1,10 @@
+
+ml load cuda
+
+ml load gnu8
+
+nvcc prime.cu
+
+sbatch sc.sh
+
+cat demo-919-.out
