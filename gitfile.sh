@@ -7,6 +7,6 @@ git push https://rashimujumdar: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@github.c
 
 ddi=download
 if [ -d $ddi ]; then
-	rm -rf download
+	rm -rf upload
 fi
 git clone https://rashimujumdar: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@github.com/rashimujumdar/upload.git
