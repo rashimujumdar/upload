@@ -2,7 +2,7 @@
 
 cd ~/Public
 
-
+git pull upload master --force
 git add *.*
 git commit -m "Test 2"
 git push upload --force
