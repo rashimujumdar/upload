@@ -2,3 +2,7 @@ module load nvhpc/nvhpc/22.3
 
 gcc main.c -lOpenCL -I/opt/ohpc/pub/hpc_sdk/Linux_x86_64/22.3/cuda/include -L/opt/ohpc/pub/hpc_sdk/Linux_x86_64/22.3/cuda/lib64
 
+sbatch sc.sh
+ 
+cat demo-919-.out
+
