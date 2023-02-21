@@ -1,7 +1,0 @@
-ml load nvhpc/nvhpc/22.3
-
-pgcc -Minfo=accel -ta=tesla:managed va1.c
-
-sbatch sc.sh
-
-cat demo-919-.out
